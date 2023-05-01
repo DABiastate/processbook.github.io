@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+h1{
+    margin: 0;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-right: 2em;
+}
+
+.aboutUsPopUp{
+    padding-right: 2em;
+}
+.aboutUsPopUp:hover{
+    cursor: pointer;
+}
